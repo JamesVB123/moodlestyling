@@ -1,0 +1,10 @@
+body {
+  
+ion-button::part(native) {
+text-transform: none;
+}
+
+/* Use a red background by default */
+ion-button {
+--background: red;
+}
